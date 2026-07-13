@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AuraAI — Privacy Policy</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&family=Rajdhani:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #050810; --bg-2: #080d1a; --cyan: #00f0ff; --pink: #ff2d78;
+    --purple: #b44fff; --white: #e8eaf0; --grey: #8a90a8;
+    --font-display: 'Orbitron', monospace; --font-mono: 'Share Tech Mono', monospace; --font-body: 'Rajdhani', sans-serif;
+    --glow-cyan: 0 0 10px #00f0ff, 0 0 30px #00f0ff44;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--white);font-family:var(--font-body);min-height:100vh;line-height:1.7}
+  .scanlines{position:fixed;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,240,255,0.012) 2px,rgba(0,240,255,0.012) 4px);pointer-events:none;z-index:9999}
+  .nav{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0.9rem 2rem;background:rgba(5,8,16,0.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(0,240,255,0.12)}
+  .nav-logo{font-family:var(--font-display);font-size:1.05rem;font-weight:900;letter-spacing:2px;text-decoration:none}
+  .logo-aura{color:var(--cyan);text-shadow:var(--glow-cyan)}.logo-ai{color:var(--white)}
+  .nav a.back{font-family:var(--font-mono);font-size:0.65rem;color:var(--grey);text-decoration:none;letter-spacing:1px;border:1px solid rgba(74,80,104,0.4);padding:6px 14px;transition:all 0.2s}
+  .nav a.back:hover{color:var(--cyan);border-color:var(--cyan)}
+  .wrap{max-width:820px;margin:0 auto;padding:48px 24px 100px}
+  h1{font-family:var(--font-display);font-size:1.6rem;letter-spacing:1px;color:var(--cyan);text-shadow:var(--glow-cyan);margin-bottom:6px}
+  .updated{font-family:var(--font-mono);font-size:0.7rem;color:var(--grey);letter-spacing:1px;margin-bottom:36px}
+  h2{font-family:var(--font-display);font-size:0.95rem;letter-spacing:1px;color:var(--cyan);margin:34px 0 12px;padding-bottom:8px;border-bottom:1px solid rgba(0,240,255,0.15)}
+  h3{font-family:var(--font-mono);font-size:0.8rem;letter-spacing:1px;color:var(--white);margin:18px 0 8px}
+  p, li{font-size:0.95rem;color:var(--white);margin-bottom:12px}
+  ul, ol{padding-left:22px;margin-bottom:12px}
+  strong{color:var(--cyan)}
+  a{color:var(--cyan)}
+  .placeholder{color:var(--pink);font-family:var(--font-mono);font-size:0.85em}
+  table{width:100%;border-collapse:collapse;margin-bottom:16px;font-size:0.88rem}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid rgba(0,240,255,0.1)}
+  th{font-family:var(--font-mono);font-size:0.62rem;letter-spacing:1px;color:var(--cyan);text-transform:uppercase}
+</style>
+</head>
+<body>
+<div class="scanlines"></div>
+<div class="nav">
+  <a href="https://uptight-shelf-smart-flow.com/dashboard.html" class="nav-logo"><span class="logo-aura">AURA</span><span class="logo-ai">AI</span></a>
+  <a href="terms.html" class="back">‹ TERMS OF SERVICE</a>
+</div>
+
+<div class="wrap">
+  <h1>PRIVACY POLICY</h1>
+  <p class="updated">// Last updated: <span class="placeholder">[DATE YOU PUBLISH THIS]</span> &nbsp;|&nbsp; Applies to AuraAI (Discord App ID 1479991514351538350) and the AuraAI Dashboard</p>
+
+  <p>This Privacy Policy explains what information AuraAI ("we," "us," "our") collects when you use the AuraAI Discord bot and Dashboard (the "Service"), how we use it, and the choices you have. This policy is specific to AuraAI — it is separate from the privacy policy covering ShelfSmart.</p>
+
+  <h2>1. Information We Collect</h2>
+
+  <h3>Information from Discord</h3>
+  <ul>
+    <li>Your Discord user ID, username, and avatar (via Discord's API and OAuth, when you log into the Dashboard);</li>
+    <li>Server (guild) ID, channel IDs, and role IDs that a server owner configures for AuraAI's features;</li>
+    <li>Message content you send directly to AuraAI's commands (e.g., <span style="color:var(--cyan)">/chat</span>, <span style="color:var(--cyan)">/ask-td</span>), which is sent to Anthropic's Claude API to generate a response;</li>
+    <li>BattleTags, usernames, or other in-game identifiers you provide for stat lookups.</li>
+  </ul>
+
+  <h3>Tournament, Match &amp; Coaching Data</h3>
+  <p>Team rosters, match results, hero/map bans, tournament registrations, coaching session transcripts (logged when a coaching thread ends), and scrim schedules you or a server admin submit through AuraAI's commands or Dashboard.</p>
+
+  <h3>Payment Information</h3>
+  <p>If you purchase Pro Monthly or Lifetime access, payment is processed directly by <strong>Stripe</strong>. We do not receive or store your full card number; we retain only what Stripe provides us to confirm your subscription status (e.g., subscription ID, tier, payment status).</p>
+
+  <h3>Social Alert Configuration</h3>
+  <p>If a server admin sets up Twitch, YouTube, or Kick alerts, we store the connected channel/creator identifiers needed to check for new streams or uploads.</p>
+
+  <h2>2. How We Use Information</h2>
+  <ul>
+    <li>To operate core bot features: tournaments, matches, coaching, stats, AI chat, temporary voice channels, and social alerts;</li>
+    <li>To authenticate you and load your server's configuration in the Dashboard;</li>
+    <li>To process and confirm subscription payments via Stripe;</li>
+    <li>To respond to support tickets submitted through the Dashboard;</li>
+    <li>To maintain and improve the Service, including diagnosing bugs.</li>
+  </ul>
+  <p>We do not sell your personal information to third parties.</p>
+
+  <h2>3. Third-Party Services We Share Data With</h2>
+  <table>
+    <tr><th>Service</th><th>Purpose</th></tr>
+    <tr><td>Discord</td><td>Core platform the bot runs on; OAuth login</td></tr>
+    <tr><td>Supabase</td><td>Database hosting for all server/tournament/coaching data</td></tr>
+    <tr><td>Stripe</td><td>Payment processing for Pro/Lifetime subscriptions</td></tr>
+    <tr><td>Anthropic (Claude API)</td><td>Generates responses for AI chat and Tournament Director commands</td></tr>
+    <tr><td>Twitch / YouTube / Kick</td><td>Detecting live streams or new uploads for social alerts</td></tr>
+    <tr><td>Railway</td><td>Hosts the bot's backend server</td></tr>
+  </table>
+  <p>Each of these providers has its own privacy practices governing data they process on our behalf.</p>
+
+  <h2>4. Data Retention</h2>
+  <p>We retain server configuration, tournament, and match data for as long as AuraAI remains active in a server, so that history (past tournaments, match logs) stays available. Coaching transcripts are retained to allow dispute review. You or a server admin can request deletion of specific data by submitting a support ticket through the Dashboard; see Section 6.</p>
+
+  <h2>5. Children's Privacy</h2>
+  <p>The Service is not directed at children under 13, consistent with Discord's own minimum age requirement. We do not knowingly collect information from users we know to be under 13. If you believe a child under 13 has provided us information, contact us via a support ticket and we will remove it.</p>
+
+  <h2>6. Your Rights &amp; Choices</h2>
+  <ul>
+    <li><strong>Access or deletion:</strong> submit a support ticket through the AuraAI Dashboard to request a copy of, or deletion of, your data.</li>
+    <li><strong>Removing the bot:</strong> a server admin can remove AuraAI from a server at any time via Discord's server settings; this stops further data collection from that server going forward.</li>
+    <li><strong>Dashboard login:</strong> you can revoke AuraAI's OAuth access at any time from your <a href="https://discord.com/settings/authorized-apps" target="_blank">Discord Authorized Apps settings</a>.</li>
+  </ul>
+
+  <h2>7. Data Security</h2>
+  <p>We use industry-standard measures (encrypted database connections, restricted service-role access) to protect stored data, but no system is 100% secure. We cannot guarantee absolute security of information transmitted to or stored by the Service.</p>
+
+  <h2>8. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. Material changes will be reflected in the "Last updated" date above. Continued use of the Service after changes are posted constitutes acceptance of the revised policy.</p>
+
+  <h2>9. Contact</h2>
+  <p>For privacy questions, data access, or deletion requests, submit a ticket through the AuraAI Dashboard's Support tab, or contact: <span class="placeholder">[YOUR CONTACT EMAIL]</span>.</p>
+</div>
+</body>
+</html>
